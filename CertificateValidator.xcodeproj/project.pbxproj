@@ -12,6 +12,9 @@
 		FBB897E31E8AEFB6004A64CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB897E11E8AEFB6004A64CE /* Main.storyboard */; };
 		FBB897E51E8AEFB6004A64CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBB897E41E8AEFB6004A64CE /* Assets.xcassets */; };
 		FBB897E81E8AEFB6004A64CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB897E61E8AEFB6004A64CE /* LaunchScreen.storyboard */; };
+		FBB897F01E8B0736004A64CE /* CertificateValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB897EF1E8B0736004A64CE /* CertificateValidator.swift */; };
+		FBB897F21E8B08D1004A64CE /* www.google.com.cer in Resources */ = {isa = PBXBuildFile; fileRef = FBB897F11E8B08D1004A64CE /* www.google.com.cer */; };
+		FBFC49DD1E8B0D630044DDEB /* www.example.com.cer in Resources */ = {isa = PBXBuildFile; fileRef = FBFC49DC1E8B0D630044DDEB /* www.example.com.cer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		FBB897E41E8AEFB6004A64CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBB897E71E8AEFB6004A64CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBB897E91E8AEFB6004A64CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBB897EF1E8B0736004A64CE /* CertificateValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CertificateValidator.swift; path = CertificateValidator/CertificateValidator.swift; sourceTree = "<group>"; };
+		FBB897F11E8B08D1004A64CE /* www.google.com.cer */ = {isa = PBXFileReference; lastKnownFileType = file; name = www.google.com.cer; path = CertificateValidator/www.google.com.cer; sourceTree = "<group>"; };
+		FBFC49DC1E8B0D630044DDEB /* www.example.com.cer */ = {isa = PBXFileReference; lastKnownFileType = file; name = www.example.com.cer; path = CertificateValidator/www.example.com.cer; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +44,9 @@
 		FBB897D11E8AEFB6004A64CE = {
 			isa = PBXGroup;
 			children = (
+				FBB897EF1E8B0736004A64CE /* CertificateValidator.swift */,
+				FBFC49DC1E8B0D630044DDEB /* www.example.com.cer */,
+				FBB897F11E8B08D1004A64CE /* www.google.com.cer */,
 				FBB897DC1E8AEFB6004A64CE /* CertificateValidator */,
 				FBB897DB1E8AEFB6004A64CE /* Products */,
 			);
@@ -126,7 +135,9 @@
 			files = (
 				FBB897E81E8AEFB6004A64CE /* LaunchScreen.storyboard in Resources */,
 				FBB897E51E8AEFB6004A64CE /* Assets.xcassets in Resources */,
+				FBFC49DD1E8B0D630044DDEB /* www.example.com.cer in Resources */,
 				FBB897E31E8AEFB6004A64CE /* Main.storyboard in Resources */,
+				FBB897F21E8B08D1004A64CE /* www.google.com.cer in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBB897E01E8AEFB6004A64CE /* ViewController.swift in Sources */,
+				FBB897F01E8B0736004A64CE /* CertificateValidator.swift in Sources */,
 				FBB897DE1E8AEFB6004A64CE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +312,7 @@
 				FBB897EE1E8AEFB6004A64CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
