@@ -27,7 +27,7 @@ class ViewController: UIViewController {
             preconditionFailure("\(name) not found")
         }
 
-        try! validator = CertificateValidator(certificateURL: url)
+        let validator = try!  CertificateValidator(certificateURL: url)
 
         session = URLSession(configuration: .default, delegate: validator, delegateQueue: nil)
 
